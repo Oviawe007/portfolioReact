@@ -16,6 +16,7 @@
     min-width:1086px;
     top:0;
     left:280px;
+    overflow-x: hidden;
 
 }
 .sideBar{
@@ -132,4 +133,16 @@ h3 > span  {
 
 .text-primary{
     color:#00a8e8;
+}
+
+/* feature header section*/
+
+.feature-header {
+    background-color: #00171f;
+    width:100%;
+    height:10vh;
+    color:#00a8e8;
+    padding:10px 20px;
+    font-size: 1.5rem;
+
 }
