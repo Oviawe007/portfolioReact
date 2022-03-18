@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Serif", serif, 'Josefin Sans', sans-serif;;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position:relative;
+}
+
+.main--class{
+    position:absolute;
+    height:100vh;
+    min-width:1086px;
+    top:0;
+    left:280px;
+
+}
+.sideBar{
+    position:fixed;
+    top:0;
+    width:280px;
+    height:100vh;
+    background-color: #00171f;
+}
+
+.sideBar--item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
+.profile-img{
+    border: 3px solid #00a8e8;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 16px;
+    border-radius:100%;
+    
+}
+.sideBar--img{
+    border-radius:100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+.sideBar--top{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:20px;
+    
+}
+
+.title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    color: #00a8e8!important
+}
+.subtitle{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #dbdbdb!important;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    align-items:left;
+}
+
+nav a{
+    margin:5px;
+    padding:5px;
+    text-decoration:none;
+    font-size: 22px;
+    color: #dbdbdb!important;
+}
+nav a:hover{
+    background-color:#00a8e8;
+}    
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background:url(https://ahmedmokhtar.dev/static/79766b6d0c9c34885698c6f7e27e3b0d/adbfa/moon.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.hero--item{
+    color:#fff;
+    padding: 60px 150px;
+   
+}
+.intro{
+    margin-bottom: 5vh;
+}
+.intro h1{
+    font-weight: 600;
+    line-height: 1.125;
+    font-size: calc(3vh + 3vw);
+    color:#f5f5f5!important;
+    
+}
+
+.intro h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.25;
+
+}
+
+h3 > span  {
+    display:flex;
+    flex-direction:row;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.125;
+    color: #dbdbdb!important;
+    margin-bottom: 2px;
+}
+
+.text-primary{
+    color:#00a8e8;
+}
